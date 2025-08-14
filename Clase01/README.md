@@ -1,4 +1,4 @@
-# Clase 01 07.08.2025 #
+# Clase 01 / 07.08.2025 #
 
 ## Resumen ##
 En esta primera clase Mati nos presentó a grandes rasgos el curso de electrónica de este semestre, en el cual nos aventuraremos a la exploración de códigos, poniendo en tensión las sencibilidades creatívas de la producción artístia; con la idea del dato.
