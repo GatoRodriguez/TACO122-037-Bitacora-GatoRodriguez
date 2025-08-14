@@ -55,6 +55,9 @@ Estas estrofas muy inspiradas en la antipoesía de Nicanor Parra se muestras atr
 
 Jodi.org es un proyecto artístico de un duo de Bélgico que explora el Net.Art desde el glich y el error informático.
 
+![Ejemplo Jodi 01](ImágenesClase01/Jodi.org1.png) 
+![Ejemplo Jodi 01](ImágenesClase01/Jodi.org2.png) 
+
 ### Referencia de Texto ###
 **Chacón**
 
