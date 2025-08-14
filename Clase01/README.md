@@ -38,10 +38,12 @@ Como primer encargo del curso, Mati nos propone que, además de configurar nuest
 
 ### Referente Medial ###
 **Máquina Cóndor** de Demian Schopf.
+
 Revisando mi lista de referentes me costó encontrar alguno que representara de mejor manera mis intereses dentro del curso, en el arte medial la mayoría de artistas que conozco se destacan en el Net.Art, aquellos que su obra habíta la interfaz Web, pero no siempre involucran la electrónica.
 A partir de este interés por habitar la red me vino a la mente los modelos relacionales construidos por el artista Chileno Demian para la programación de su obra "Máquina Condor". Este trabajo tiene varias versiones a lo largo de los años, pero la premisa es siemrpe la misma, crear algoritmos con bases de datos especificos (Noticias, Datos especificos respecto a la Operación Condor y otras intervenciones políticas del estilo en américa latina, textos, etc) para generar estrofas y poemas abtractos en tiempo real.
 Estas estrofas muy inspiradas en la antipoesía de Nicanor Parra se muestras atravez de complejos sistemas de pantallas en la mayoría de veces, pero mi favorito es una intervención en una pantalla publicitaria en el centro de Santiago, mi atracción a esta acción específica es debido a que la intalación e intervensión en el espacio público es de mis intereses mas fuerte.
 ### Referencia de Texto ###
 **Chacón**
+
 El Partido Comunista de Chile tiene un tipo de propaganda política muy particular, papelografos blancos o cafés con una tipografía y firma particular que son pegados en el espacio público con frases que responden a la contingencia nacional. 
 Me parece particularmente atractivo este medio debido a una profunda disyuntiva personal al rededor de estas acciones, por un lado, comprendo el valor histórico del papelógrafo, tiene una mística particular, un voto de confianza política y de seguridad; aún así, vivimos en una ciudad que cada día se llena de más estímulos, haciendo que el propósito original del papelógrafo se pierda por completo, un susurro que pasa completamente desapercibido en una metrópolis bulliciosa. Esta terquedad de no querer innovar y la fetichización del método por mera nostalgia refleja también el decaimiento del discurso de la izquierda nacional.
