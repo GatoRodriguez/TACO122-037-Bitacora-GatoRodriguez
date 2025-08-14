@@ -51,6 +51,10 @@ Estas estrofas muy inspiradas en la antipoesía de Nicanor Parra se muestras atr
 ![Máquina Condor 2007](ImágenesClase01/MaquinaCondor2007.jpg) 
 ![Máquina Condor 2016](ImágenesClase01/MaquinaCondor2016.jpg) 
 
+**Jodi.org**
+
+Jodi.org es un proyecto artístico de un duo de Bélgico que explora el Net.Art desde el glich y el error informático.
+
 ### Referencia de Texto ###
 **Chacón**
 
