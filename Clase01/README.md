@@ -10,12 +10,16 @@ Tras una pequeña introducción sobre la historia de los micro-controladores, Ma
 ### Referentes ###
 
 Arduino Pícaro:
+
 Arduino Pícaro es una alternativa creada en Chile a la placa de control "Arduino Uno". Me parece particularmente interezante la utilización de iconografía local en su diseño, aún más al tratarse del "Indio Pícaro", un pocisionamiento sarcástico sumamente atractivo.
+![Arduino Pícaro](ImágenesClase01/ArduinoPicarp.jpg)
 
-Aaron Montoya:
-"It´s Okey" es el exámen final del magister de Aaron en el MIT, una propuesta de ejercicios utilizando electrónica y progamnación variados bajo la premisa de reconocer emociones, acciones y procesos, por ejemplo "It´s Okey Die", una pantalla con un contador en reversa que recuerda a Aaron cuanto falta para llegar a los 75, el año promedio de fallecimiento en Chile.
+Aarón Montoya:
+
+"It´s Ok" es el exámen final del magister de Aaron en el MIT, una propuesta de ejercicios utilizando electrónica y progamnación variados bajo la premisa de reconocer emociones, acciones y procesos, por ejemplo "It´s Ok to Die", una pantalla con un contador en reversa que recuerda a Aaron cuanto falta para llegar a los 75, el año promedio de fallecimiento en Chile.
 La obra de Aaron me parece particularmente atractíva por su propuesta metodológica, mi plan es también realizar una serie de obras bajo una misma premisa para mi exámen de título, en mi caso, desplazado a la fotografía, la intervensión y la política local.
-
+![Its Ok, Aarón Montoya](ImágenesClase01/ItsOkDie.jpg)
+![Its Ok, Aarón Montoya](ImágenesClase01/ItsOkDream.png)
 ### Evaluaciones ###
 
 Algo importante que revisamos esta primera clase fué la candelarización y evaluaciones que tendremos en el curso, el cual consiste en:
