@@ -58,6 +58,13 @@ Jodi.org es un proyecto artístico de un duo de Bélgico que explora el Net.Art 
 ![Ejemplo Jodi 01](ImágenesClase01/Jodi.org1.png) 
 ![Ejemplo Jodi 01](ImágenesClase01/Jodi.org2.png) 
 
+**A G A T H A  A P P E A R S** de Olia Lialina.
+
+Olia Lialina es una artísta Russa, una de las referentes màs importantes del Net.art a nivel global. Mi interés personal con Olia viene desde su concepto de "Net.Film", una forma que eleva Olia para narrar historias en el internet que no utiliza la web solo como soporte, sino también como elemento clave en el modo de contar.
+"Agatha Appears" es una obra particular de Lialina que mezcla las reflecciones políticas de la sexualidad femenina y el imaginario web, un equilibrio interesante que me gustaria seguir explorando.
+
+
+
 ### Referencia de Texto ###
 **Chacón**
 
