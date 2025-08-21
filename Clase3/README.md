@@ -11,32 +11,90 @@ Antes de comenzar con el codigo de ARDUINO, Maty explicó sobre el paradigma ent
 El universo digital es conocido como el universo "discrteto", donde solo existe el estado binario cómo on/off, 1-0, High/Low.
 Por otra parte, el Universo análogo o "Continuo" son gradientes, existen maticez complejos, ejemplo es que entre 0 y 1 existe infinitos números decimales.
 
-## Arduino experimentación Básica
+### Arduino experimentación Básica
 
 Ya comenzando con los ejercicios de hoy, Maty enseña a realizar un blink con el Led integrado de la targeta en forma manual. 
 El codigo utilizado es:
 ```cpp
-//Primer Ejercicio 21.08.2025 Blink manual
+//Primer Ejercicio 21.08.2025
 int ledPin = 13;
 //Aqui combertimos el pin en una varieble que puedo 
 //cambiar siempre que quieras
+int tiempoOn = 100;
+int tiempoOff = 100;
+//Aquí convertimos el tiempo el delay como variables igual que el 
+//Pin
+
 void setup()
 {
   pinMode (ledPin,OUTPUT); 
   //El pinMode define que hacen el Pin nombrado
   //si es output o input
+  Serial.begin (9600);
+    //9600 es un baudio, número de datos por segundo
 }
 
 void loop()
 {
+  digitalWrite (ledPin, HIGH);
   //"digitalWrite" se utiliza para ordenar el quehacer del pin 
   //en comportamiento digital, o séa 1 o 0
-  digitalWrite (ledPin, HIGH);
-  delay (1000);
-    //Paralizar el código en milisegundos
+  Serial.println ("Prendio");
+  //Serial.println es para que el monitor serial nos diga
+  //que está sucediendo en nuestro código.
+  delay (tiempoOn);
+  //Paralizar el código en milisegundos
+  
   digitalWrite (ledPin, LOW);
-  delay (1000);
+  Serial.println ("Apagao"); 
+  delay (tiempoOff);
 }
 ```
 Esto es materia que ya he revisado en años anteriores con la profesora Mónica Bate en Taller Instruental el año 2023 y Taller Central 1-2 el año 2024, pero estos ejercicios me sirven para refrescar la memoria y comenzar a imaginar que haré respecto a obra.
-En lo personal, me interesa la posibilidad en que el código aparezca en la obra, que no se oculten necesariamente, esto ya que el lenguaje de programación al caracterizarse por ser ordenado y no intuitivo de leer para las peronas que no conocen en profundidad sobre computación. Junto a esto, exponer el código permite es como hacerle la autopsia a un archivo.
+
+El siguiente paso del ejercicio de hoy será escribir la letra A en Morse utilizando principalmente las ordenes "int" y "digitalWrite".
+
+```cpp
+//Hablar en Morce Ejercicio DOS 21.08.2025
+int ledPin = 13;
+//Siempre es el pin 13 si queremos utilizar el 
+//Led adjunto a la placa
+int tiempoPunto = 1000;
+int separador = 500;
+int tiempoRaya = 2000;
+int finCaracter = 500;
+//Hay 4 tiempos, el encendido del punto y raya
+//El separador entre raya y punto y el fin del caracter
+void setup()
+{
+  pinMode (ledPin,OUTPUT); 
+  
+  Serial.begin (9600);
+    
+}
+
+void loop()
+{
+  digitalWrite (ledPin, HIGH);
+  Serial.println ("Punto");
+  delay (tiempoPunto);
+
+  digitalWrite (ledPin, LOW);
+  Serial.println ("separador"); 
+  delay (separador);
+  
+  digitalWrite (ledPin, HIGH);
+  Serial.println ("Raya");
+  delay (tiempoRaya);
+  
+  digitalWrite (ledPin, LOW);
+  Serial.println ("finCaracter"); 
+  delay (separador);
+}
+```
+
+Para agilizar acciones repetitiva podemos utilizar el termino "void x", donde una serie de acciones pueden reducirse a una sola indicación en el "void loop".
+
+## Encargo 3
+
+Escribir con Morse los texto escogido en la Clase 01 con la luz adjunta al Arduino.
