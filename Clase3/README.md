@@ -38,3 +38,5 @@ void loop()
   delay (1000);
 }
 ```
+Esto es materia que ya he revisado en años anteriores con la profesora Mónica Bate en Taller Instruental el año 2023 y Taller Central 1-2 el año 2024, pero estos ejercicios me sirven para refrescar la memoria y comenzar a imaginar que haré respecto a obra.
+En lo personal, me interesa la posibilidad en que el código aparezca en la obra, que no se oculten necesariamente, esto ya que el lenguaje de programación al caracterizarse por ser ordenado y no intuitivo de leer para las peronas que no conocen en profundidad sobre computación. Junto a esto, exponer el código permite es como hacerle la autopsia a un archivo.
