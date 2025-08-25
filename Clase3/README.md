@@ -95,6 +95,74 @@ void loop()
 
 Para agilizar acciones repetitiva podemos utilizar el termino "void x", donde una serie de acciones pueden reducirse a una sola indicación en el "void loop".
 
+```cpp
+int ledPin = 13;
+//Los siguientes "int's" son indicadores de tiempo
+int tiempoPunto = 1000;
+int separador = 500;
+int tiempoRaya = 2000;
+int finCaracter = 500;
+int espacio = 1000;
+
+void setup()
+{
+    pinMode(ledPin,OUTPUT);
+    //9600 es la tasa de baudo, esto permite 
+  	//imprimir lo que sucede en el monitor serial
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    //El void loop indica las acciones que seguir el arduino
+    //La "A" en morce es "punto-raya", así que, con los Void 
+  	//Alternativos llamaré primero la acción "punto"
+    punto();
+    //llamamos posteriormente la funcion raya
+    raya();
+    //Ahora para indicar que terminé la "A"
+  	//cerramos el caracter con un delay
+    delay(finCaracter);
+    Serial.println(" cierre");
+}
+
+
+void punto(){
+    //este "Void alternativo" es la funcion que generará un punto
+    //primero debo prender el punto
+    digitalWrite(ledPin,HIGH);
+    Serial.println("punto");
+    //lo dejamos encendido
+    delay(tiempoPunto);
+    //ahora lo apagamos
+    digitalWrite(ledPin,LOW);
+    //finalmente un separador para darle tiempo a la siguiente acción
+    delay(separador);
+}
+
+void raya(){
+ 	//empezamos con este void para generar una raya,
+  	//Primero llamamos a la raya
+    digitalWrite(ledPin,HIGH);
+    Serial.println("raya");
+    //esperamos el tiempo que dure raya
+    delay(tiempoRaya);
+    //apagamos la raya para finalizar
+    digitalWrite(ledPin,LOW);
+  	//Un nuevo separador para separar cada caracter
+}
+
+void o(){
+  	//Con los void's de caracter ya definido, podríamos hacer 
+  	//Nuevos void's hechos con estos primeros para hacer
+  	//Letras definidas y que el Void loop sea más sintéticos
+ raya();raya();raya();
+}
+
+	//Ahora simplemente le doy a iniciar para
+	//que mi arduino grite en morse
+```
+
 ## Encargo 3
 
 Escribir con Morse los texto escogido en la Clase 01 con la luz adjunta al Arduino.
