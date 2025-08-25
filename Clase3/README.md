@@ -168,3 +168,6 @@ void o(){
 Escribir con Morse los texto escogido en la Clase 01 con la luz adjunta al Arduino.
 
 ![Alfabeto en Morse](ImagenesClase03/Morse.png)
+
+Como mi referente de texto es el **"Chacon"**, propaganda política del partido comunista, así que para cumplir con el encargo, buscare en [Twitter](https://x.com/brigadachacon/media) la cuenta oficial de la brigada y traspasaré el texto de su último registro en morse.
+
