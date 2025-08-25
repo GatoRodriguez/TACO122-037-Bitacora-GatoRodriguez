@@ -171,3 +171,270 @@ Escribir con Morse los texto escogido en la Clase 01 con la luz adjunta al Ardui
 
 Como mi referente de texto es el **"Chacon"**, propaganda política del partido comunista, así que para cumplir con el encargo, buscare en [Twitter](https://x.com/brigadachacon/media) la cuenta oficial de la brigada y traspasaré el texto de su último registro en morse.
 
+![Último registro de la Brigada Chacón](ImagenesClase03/PublicacionBrigadaChacon.png)
+
+A continuación, el código final para la realización de este encargo.
+```cpp
+int ledPin = 13;
+//Los siguientes "int's" son indicadores de tiempo
+int tiempoPunto = 1000;
+int separador = 500;
+int tiempoRaya = 2000;
+int finCaracter = 500;
+int espacio = 1000;
+
+void setup()
+{
+    pinMode(ledPin,OUTPUT);
+    //9600 es la tasa de baudo, esto permite 
+  	//imprimir lo que sucede en el monitor serial
+    Serial.begin(9600);
+}
+
+void loop()
+{
+    //El void loop indica las acciones que seguir el arduino
+    //El encargo pide que transforme mi referencia de texto
+  	//en morse y utilice la luz integrada de arduino para comunicarlo
+  	//Utilizaré void's de letras para sintetzar este void loop.
+   	
+  	e();l();
+  	Serial.println("el");
+  	delay(espacio);
+  
+  	p();r();e();s();i();d();e();n();t();e();
+  	Serial.println("presidente");
+  	delay(espacio);
+  
+  	d();e();
+  	Serial.println("de");
+  	delay(espacio);
+  
+  	c();h();i();l();e();
+  	Serial.println("chile");
+  	delay(espacio);
+  
+  	d();e();b();e();n();
+  	Serial.println("deben");
+  	delay(espacio);
+  
+	e();l();e();g();i();r();l();o();
+  	Serial.println("elegirlo");
+  	delay(espacio);
+  
+  	l();o();s();
+  	Serial.println("los");
+  	delay(espacio);
+  
+  	c();h();i();l();e();n();o();s();
+  	Serial.println("chilenos");
+  	delay(espacio);
+  
+ 	g();a();t();o();
+  	Serial.println("#");
+  	delay(espacio);
+  
+  	p();u();n();t();o();
+  	Serial.println("punto");
+  	delay(espacio);
+  
+ 	c();h();a();c();o();n();
+  	Serial.println("chacon");
+  	delay(espacio);
+  
+  	e();s();t();r();e();l();l();a();
+  	Serial.println("estrella");
+  	delay(espacio);
+  
+  	r();o();j();a();
+  	Serial.println("roja");
+  	delay(espacio);
+  
+  	Serial.println("cierre");
+}
+
+
+void punto(){
+    //este "Void alternativo" es la funcion que generará un punto
+    //primero debo prender el punto
+    digitalWrite(ledPin,HIGH);
+    Serial.println("punto");
+    //lo dejamos encendido
+    delay(tiempoPunto);
+    //ahora lo apagamos
+    digitalWrite(ledPin,LOW);
+    //finalmente un separador para darle tiempo a la siguiente acción
+    delay(separador);
+}
+
+void raya(){
+ 	//empezamos con este void para generar una raya,
+  	//Primero llamamos a la raya
+    digitalWrite(ledPin,HIGH);
+    Serial.println("raya");
+    //esperamos el tiempo que dure raya
+    delay(tiempoRaya);
+    //apagamos la raya para finalizar
+    digitalWrite(ledPin,LOW);
+  	//Un nuevo separador para separar cada caracter
+}
+
+void a(){
+  	//A en morse es punto, raya
+	punto();raya();
+  	delay(finCaracter);
+}
+
+void b(){
+  	//b en morse es raya y 3 puntos
+	raya();punto();punto();punto();
+  	delay(finCaracter);
+}
+
+void c(){
+  	//c en morse es raya, punto, raya, punto
+	raya();punto();raya();punto();
+  	delay(finCaracter);
+}
+
+void d(){
+  	//d en morse es raya, punto, punto
+	raya();punto();punto();
+  	delay(finCaracter);
+}
+
+void e(){
+  	//e en morse es solo un punto
+	punto();
+  	delay(finCaracter);
+}
+
+void f(){
+  	//f en morse es punto, punto, raya, punto
+	punto();punto();raya();punto();
+  	delay(finCaracter);
+}
+
+void g(){
+  	//g en morse es raya, raya, punto
+	raya();raya();punto();
+  	delay(finCaracter);
+}
+
+void h(){
+  	//h en morse son 4 puntos
+	punto();punto();punto();punto();
+  	delay(finCaracter);
+}
+
+void i(){
+  	//i en morse son 2 puntos
+	punto();punto();
+  	delay(finCaracter);
+}
+
+void j(){
+  	//j en morse es punto, raya, raya, raya
+	punto();raya();raya();raya();
+  	delay(finCaracter);
+}
+
+void k(){
+  	//k en morse es raya, punto, raya
+	raya();punto();raya();
+  	delay(finCaracter);
+}
+
+void l(){
+  	//l en morse es punto, raya, punto, punto
+	punto();raya();punto();punto();
+  	delay(finCaracter);
+}
+
+void m(){
+  	//m en morse son 2 rayas
+	punto();raya();punto();punto();
+  	delay(finCaracter);
+}
+
+void n(){
+  	//n en morse es raya, punto
+	raya();punto();
+  	delay(finCaracter);
+}
+
+void o(){
+  	//o en morse son 3 rayas
+	raya();raya();raya();
+  	delay(finCaracter);
+}
+
+void p(){
+  	//p en morse es punto, raya, raya, punto
+	punto();raya();raya();punto();
+  	delay(finCaracter);
+}
+
+void q(){
+  	//q en morse es raya, raya, punto, raya
+	raya();raya();punto();raya();
+  	delay(finCaracter);
+}
+
+void r(){
+  	//r en morse es punto, raya, punto
+	punto();raya();punto();
+  	delay(finCaracter);
+}
+
+void s(){
+  	//s en morse es punto, punto, punto
+	punto();punto();punto();
+  	delay(finCaracter);
+}
+
+void t(){
+  	//t en morse es solo una raya
+	raya();
+  	delay(finCaracter);
+}
+
+void u(){
+  	//u en morse es punto, punto, raya
+	punto();punto();raya();
+  	delay(finCaracter);
+}
+
+void v(){
+  	//v en morse es punto, punto, punto, raya
+	punto();punto();punto();raya();
+  	delay(finCaracter);
+}
+
+void w(){
+  	//w en morse es punto, raya, raya
+	punto();raya();raya();
+  	delay(finCaracter);
+}
+
+void x(){
+  	//w en morse es raya, punto, punto, raya
+	raya();punto();punto();raya();
+  	delay(finCaracter);
+}
+
+void y(){
+  	//y en morse es raya, punto, raya, raya
+	raya();punto();raya();raya();
+  	delay(finCaracter);
+}
+
+void z(){
+  	//z en morse es raya, raya, punto, punto
+	raya();raya();punto();punto();
+  	delay(finCaracter);
+}
+
+	//Decidí hacer en código todo el albaféto morse
+	//por si en un futuro llego a utilizarlo
+```
