@@ -61,3 +61,8 @@ void loop ()
   Serial.println (intensidadLuz);
  }
 ```
+##Encargo 04
+
+Utilizar la estructura de "if" para alterar el brillo del led, modificando el comportamiento del potenciometro.
+
+Traer pantalla la próxima semana.
