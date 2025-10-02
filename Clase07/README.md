@@ -91,7 +91,7 @@ Al estar trabajando en WokWi deberé investigar primero como conectar De un siti
 
 Luego de intentarlo muchas veces (reemplazando processing por p5.js o utilizar Python, pero no terminé de entender como hacerlo) no pude hacer que funcionara, así que lo compraré y lo haré en casa con mayor tiempo
 
-## Encargo 07.5 (opcional)
+### Encargo 07.5 (opcional)
 
 Controlar la velocidad con el Encoder  
 
