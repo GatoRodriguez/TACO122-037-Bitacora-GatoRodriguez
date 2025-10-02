@@ -81,8 +81,13 @@ Sabemos que este código funciona gracias a nuestro Serial Print.
 
 ![EncoderFuncionandoSerialPrint](ImagenesClase07/Encoder2.png)
 
-### Paso 4
 
-Con el conocimiento adquirido, utilizremos Processing para que nuestro Encoder manipule la pantalla.
+
+## Encargo 07
+
+Con el conocimiento adquirido, **utilizremos Processing para que nuestro Encoder manipule la pantalla.**
+
 Al estar trabajando en WokWi deberé investigar primero como conectar De un sitio a otro, o reemplazar el Encoder con un potenciometro, pero esa será mi última opción, quiero aprender a usar encoder, me paece interesante y útil.
+
+Luego de intentarlo muchas veces (reemplazando processing por p5.js o utilizar Python, pero no terminé de entender como hacerlo) no pude hacer que funcionara, así que lo compraré y lo haré en casa con mayor tiempo
 
