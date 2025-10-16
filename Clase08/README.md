@@ -11,6 +11,7 @@ Un encargo que Mati nos dejó para la semana en que no tuvimos clase fue utiliza
 Con los datos que ya tenemos debemos reescalar los números para que puedn habitar el universo digital, a esto se le llama normalizar datos, donde debemos convertir los números a no mayores que 100 ni menores a 0. 
 
 Este proceso se utiliza no solamente para este caso siempre se hace con el fin de standarizar los datos, para ello utilizaremos **exel**.
+(odio exel)
 
 **Referente**
 
