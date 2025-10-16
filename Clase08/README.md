@@ -13,7 +13,39 @@ Con los datos que ya tenemos debemos reescalar los números para que puedn habit
 Este proceso se utiliza no solamente para este caso siempre se hace con el fin de standarizar los datos, para ello utilizaremos **exel**.
 (odio exel)
 
-**Referente**
+Tras la normalización pasaremos los datos a Proccesing, aquí dejo e primer paso para poder leer el documento.
+
+```cpp
+Table hojaProcesada; //creamos una isntancia con el recorrido
+
+void setup (){
+  
+  //crer lienzo
+  size (200,200);
+  background (255);
+  
+  //header ignora la primera fila, o sea, los títulos
+  hojaProcesada = loadTable("hojaProcesada.cvs", "header"); 
+  
+  //Imprimir fila y columna
+  println (hojaProcesada.getRowCount());
+  println (hojaProcesada.getColumnCount());
+  
+  //que valor hay en una fila especifica
+  print("en la celda (0,0) esta el valo");
+  println (hojaProcesada.getFloat(0,0));
+  
+}
+  
+void draw () {
+}
+```
+
+Después de esto comenzaremmos a dibujar el mapeo.
+
+
+
+### Referente
 
 1: [Brian Mackern](https://34s56w.org/)
 
@@ -21,6 +53,16 @@ Este proceso se utiliza no solamente para este caso siempre se hace con el fin d
 ![Rio Sánta Lucia](ImagenesClase08/BrianMackern1.jpg)
 
 *Sonificación de los datos de contaminación de la cuenca del río Santa Lucía.*
+
+2: Manuel Delanda 
+
+![Video Manuel](ImagenesClase08/ManuelDelanda.jpg)
+
+[Una Filosofía que corra](https://youtu.be/0rDs-MpBx2M?si=Ypu5swvgay-p4aws)
+
+3: Simon Weckert 
+
+4: Diamela Burboa
 
 ## Encargo e inicio de exámen
  
