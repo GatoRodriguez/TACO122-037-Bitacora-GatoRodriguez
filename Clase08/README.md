@@ -1,4 +1,4 @@
-# Clase 08   16.10.2025
+# Clase 08  /  16.10.2025
 
 ## Resumen
 Para comenzaqr la clase, hacemos una revisión de fechas teniendo en cuenta las oficiales que bajó dirección. 
