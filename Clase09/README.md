@@ -38,3 +38,12 @@ estandariable?
 
 Mi interés ante esta obra es la capacidad de volver lo mundano y aleatorio, como el vuelo de una mosca, en un dato con cierta relevancia con solo la utilización del lenguaje científico, como si realmente 
 cualquier cosa pudiese ser importante utilizando las palabras y formas correctas.
+
+### John Cage / Catálogo Cybernetic Serendipidity
+### Extract from "A Year From Monday" (1967)
+
+![A Year From Monday (1944)](ImagenesClase09/GraficoCage.png)
+
+Reviando el libro Cybernetic Serendipidity me llamó la atención el gráfico de John Cage en el fragmento llamado "Extract from "A Year From Monday", siendo este una explicación detras de como fue componiendo diferentes piezas musicales utilizando lenguaje comunicacional. 
+
+Mi interés particular es en como tiene la capacidad de deformar el lenguaje musical tradicional de las partiruras para constuir una nueva forma de graficar que responda a los parametros propios de Cage, un ejercicio parecido al que Safo de Lesbos hizo cambiando la métrica tradicional de la poesia griega tradicional de su época con el fin de evocar otras sensaciones.
