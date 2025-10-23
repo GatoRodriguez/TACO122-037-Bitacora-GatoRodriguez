@@ -17,7 +17,7 @@ estética información en bruto.
 ### Harold Fisk
 ### Harold Fisk’s Meander Maps of the Mississippi River (1944)
 
-![Harold Fisk’s Meander Maps of the Mississippi River (1944)](ImagenesClase08/BrianMackern.jpg)
+![Harold Fisk’s Meander Maps of the Mississippi River (1944)](ImagenesClase09/MisisipiFisk.jpg)
 
 Este mapa corresponde a una cartografía del geólogo estadounidense, Harold Fisk, que busca revelar el comportamiento del Rio Misisipi y las razones de los constantes aluviones que se vivian del sur 
 de Illinois hasta el sur de Luisiana. Para recrear los cambios atrave del tiempo resecto al flujo original del río, Fisk tuvo la idea de hacer una superpocición de mapas ya existentes y lecturas geofísicas del terreno, difernciando
@@ -29,7 +29,7 @@ capaz de transmitir cierta experiencia sublime al enfrentarse de frente ante el 
 ### Walter Marchetti
 ### Observación de los movimientos de una mosca sobre el cristal de una ventana desde las 8 de la mañana hasta las 7 de la tarde de un día de mayo de 1967.
 
-![Observación de los movimientos de una mosca sobre el cristal de una ventana desde las 8 de la mañana hasta las 7 de la tarde de un día de mayo de 1967](ImagenesClase08/BrianMackern.jpg)
+![Observación de los movimientos de una mosca sobre el cristal de una ventana desde las 8 de la mañana hasta las 7 de la tarde de un día de mayo de 1967](ImagenesClase09/MoscaMarchetti.jpg)
 
 Este segundo gráfico fue realizado por el artista visual, compositor y flósofo Italo-Español Walter Marchetti, perteneciente al grupo vanguardista ZAJ, un colectivo que guarda similitudes con el FLUXUS, pero con 
 matices eropeos, especialmente español.
