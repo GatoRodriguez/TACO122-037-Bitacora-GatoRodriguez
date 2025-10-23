@@ -58,3 +58,9 @@ El  Computer Technique Group (CTG) es un colectivo de artistas, programadores, i
 
 Me llamó especialmente la atención la selección de imágenes y cómo la construcción de estas agrega una capa de sentido, especialmente en aquellas donde aparece Kennedy.
 
+## Propuesta
+
+Aunque aún no tengo una idea tan clara de que me gustaría hacer, la aparición de utilizar el lenguaje de la gráfica científica para construir imágenes o mensajes me parece atractivo de explorar.
+Relacionando esto mismo con mis intereses generales màs allà del curso y la retórica que he estado trabajando este último tiempo, me parece pertinente integrar el desgaste de la propaganda política o la intervensión en el espacio público, especialmete la del afiche de papel que se enfrenta a la interperie.
+
+![CTG](ImagenesClase09/Deterioro.jpg)
