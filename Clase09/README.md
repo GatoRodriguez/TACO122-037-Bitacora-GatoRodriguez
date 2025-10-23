@@ -47,3 +47,14 @@ cualquier cosa pudiese ser importante utilizando las palabras y formas correctas
 Reviando el libro Cybernetic Serendipidity me llamó la atención el gráfico de John Cage en el fragmento llamado "Extract from "A Year From Monday", siendo este una explicación detras de como fue componiendo diferentes piezas musicales utilizando lenguaje comunicacional. 
 
 Mi interés particular es en como tiene la capacidad de deformar el lenguaje musical tradicional de las partiruras para constuir una nueva forma de graficar que responda a los parametros propios de Cage, un ejercicio parecido al que Safo de Lesbos hizo cambiando la métrica tradicional de la poesia griega tradicional de su época con el fin de evocar otras sensaciones.
+
+### Computer Technique Group, Japan
+### Selección de obras del Catálogo Cybernetic Serendipidity
+
+![CTG](ImagenesClase09/CTG1.png)
+![CTG](ImagenesClase09/CTG2.png)
+
+El  Computer Technique Group (CTG) es un colectivo de artistas, programadores, ingenieros y arquitectos que en la década de los 60 fueron explorando la diciplina del arte medial, utilizando principalmente las herramientas del diseño gráfico.
+
+Me llamó especialmente la atención la selección de imágenes y cómo la construcción de estas agrega una capa de sentido, especialmente en aquellas donde aparece Kennedy.
+
