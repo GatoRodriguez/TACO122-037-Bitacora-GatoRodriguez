@@ -64,3 +64,8 @@ Aunque aún no tengo una idea tan clara de que me gustaría hacer, la aparición
 Relacionando esto mismo con mis intereses generales màs allà del curso y la retórica que he estado trabajando este último tiempo, me parece pertinente integrar el desgaste de la propaganda política o la intervensión en el espacio público, especialmete la del afiche de papel que se enfrenta a la interperie.
 
 ![CTG](ImagenesClase09/Deterioro.jpg)
+
+Mi mayor problema es el pensar el como sacar la propuesta de la pantalla, que tenga un despliegue en el espacio físico. Una forma de hacerlo es no pensar en como sacar el dato de la pantalla, sino mover esta misma de espacio, para darle un sentido y significado la contención, como Demian en Maquina Cóndor, especialmente aquel ejercicio hecho en la pantallas del centro. Otra opción inspirada de este mismo referente es la impresión.
+
+![Máquina Condor espácio Público](ImagenesClase09/MaquinaCondor1.jpg) 
+![Máquina Condor espácio Público](ImagenesClase09/MaquinaCondor2.jpg) 
